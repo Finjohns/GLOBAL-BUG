@@ -14,11 +14,11 @@ Credit Qasim Ali
 
 global.prefa = ['','!','.',',','🐤','🗿'] 
 // Setting Contact
-global.namaown = "© GlobalTechInfo"
+global.namaown = "© Jł₦₩łłⱠ 🕷️ Ø₦₲ł₦JØ🕸️"
 global.namabot = "𝗚𝗹𝗼𝗯𝗮𝗹-𝗕𝘂𝗴"
 global.versisc = "9.0.0"
-global.owner = ["923xxx Qasim Ali"]
-global.tele = "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07"
+global.owner = ["Jł₦₩łłⱠ 🕷️ Ø₦₲ł₦JØ🕸️"]
+global.tele = "https://whatsapp.com/channel/0029VafrbsKG8l5EFBDDCy41"
 global.url = "https://www.youtube.com/@GlobalTechInfo"
 global.namastore = "Zʏɴxᴢᴏ"
 
